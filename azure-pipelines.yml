@@ -24,7 +24,7 @@ steps:
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
-    vsVersion: 'vs2017-win2016'
+    vsVersion: '17.0'
 
 - task: VSTest@2
   inputs:
