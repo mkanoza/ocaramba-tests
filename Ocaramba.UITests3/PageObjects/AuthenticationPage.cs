@@ -36,14 +36,12 @@ namespace Ocaramba.UITests3.PageObjects
         public AuthenticationPage EnterEmailSignIn(string email)
         {
             this.Driver.GetElement(this.SignInEmailTextfield).SendKeys(email);
-            Console.WriteLine("Entered email: " + email);
             return this;
         }
 
         public AuthenticationPage EnterPasswordSignIn(string password)
         {
             this.Driver.GetElement(this.SignInPasswordTextfield).SendKeys(password);
-            Console.WriteLine("Entered password: " + password);
             return this;
         }
 

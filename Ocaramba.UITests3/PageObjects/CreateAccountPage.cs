@@ -3,11 +3,6 @@ using Ocaramba.Types;
 using Ocaramba.UITests3.DataDriven;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ocaramba.UITests3.PageObjects
 {
@@ -51,12 +46,6 @@ namespace Ocaramba.UITests3.PageObjects
         public CreateAccountPage(DriverContext driverContext)
             : base(driverContext)
         {
-        }
-
-        public CreateAccountPage WaitForLoading()
-        {
-            new WebDriverWait(driver, TimeSpan.FromSeconds(10)).Until(d => ((IJavaScriptExecutor)d).ExecuteScript("return document.readyState").Equals("complete"));
-            return this;
         }
 
         //PERSONAL INFORMATION SECTION

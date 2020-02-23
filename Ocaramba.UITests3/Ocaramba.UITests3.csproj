@@ -82,9 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataDriven\DataDrivenHelper.cs" />
     <Compile Include="DataDriven\StringGenerator.cs" />
-    <Compile Include="DataDriven\TestData.cs" />
     <Compile Include="DataDriven\UserData.cs" />
     <Compile Include="PageObjects\AuthenticationPage.cs" />
     <Compile Include="PageObjects\CreateAccountPage.cs" />
@@ -101,7 +99,6 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="DataDriven\DataDriven.xml" />
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>

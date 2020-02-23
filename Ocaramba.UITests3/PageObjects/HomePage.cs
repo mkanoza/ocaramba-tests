@@ -13,9 +13,6 @@ namespace Ocaramba.UITests3.PageObjects
 
         private readonly ElementLocator SignInButton = new ElementLocator(Locator.CssSelector, "a[class='login']");
         private readonly ElementLocator SearchTextfield = new ElementLocator(Locator.Id, "search_query_top");
-        private readonly ElementLocator SubmitSearchButton = new ElementLocator(Locator.CssSelector, "button[name='submit_search']");
-        private readonly ElementLocator CategoryButtons = new ElementLocator(Locator.XPath, "//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li/a");
-        private readonly ElementLocator ContactUsLink = new ElementLocator(Locator.CssSelector, "a[href='http://automationpractice.com/index.php?controller=contact']");
 
 
         public HomePage(DriverContext driverContext)

@@ -4,7 +4,6 @@
 using NUnit.Framework;
 using Ocaramba.UITests3.DataDriven;
 using Ocaramba.UITests3.PageObjects;
-using OpenQA.Selenium;
 
 namespace Ocaramba.UITests3
 {
